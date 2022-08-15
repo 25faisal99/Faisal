@@ -210,6 +210,15 @@ body{
 .review-head{
     display: flex;
 }
+.icon{
+    margin-left: 80px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+.icon i{
+    color: aqua;
+    font-size: 15px;
+}
 .review-card .review-head .faisal{
     height: 50px;
     width: 50px;
@@ -273,10 +282,32 @@ form input:focus{
 }
 
 /* footer section */
-.footer{
+ 
+footer .footer{
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 20px;
-    
+    display: block;
+    margin-left: 460px;
 }
+footer a{
+    display: inline-block;
+    background-color: rgb(221, 64, 11);
+    padding: 10px;
+    color: black;
+    margin-left: 450px;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    z-index: 10px;
+    opacity: 0.7;
+}
+footer a:hover{
+    opacity: 1;
+}
+footer{
+    display: flex;
+}
+ 
+ 
