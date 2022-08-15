@@ -38,6 +38,9 @@ body{
     background-color:  #489DC1;
     color: white; 
 }
+.navbar ul li:nth-child(2){
+    margin-right: 50px;
+}
 .marquee{
     width: 100%;
     background-color: #058158;
@@ -245,7 +248,7 @@ form input{
     outline: none;
     padding: 20px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 10px;
     /* font-size: 20px; */
 }
@@ -263,6 +266,10 @@ form input:focus{
 .bttn1:hover{
     background-color: aquamarine;
     cursor: pointer;
+}
+#edu{
+    position: relative;
+    margin-left: 35px;
 }
 
 /* footer section */
