@@ -9,7 +9,7 @@ body{
 }
 .navbar{
     width: 100%;
-    background-color:  rgb(5, 5, 133);
+    background-color: #489DC1;
     
     overflow: hidden;
     
@@ -20,12 +20,12 @@ body{
     
 }
 .navbar ul li a{
-    text-decoration: none;
-    
+    text-decoration: none;    
     display: block;
     padding: 20px;
-    color: whitesmoke; 
+    font-weight: bold;
     font-size: 20px; 
+    color: black;
 }
 .navbar ul li:nth-child(1){
     float: left;
@@ -35,14 +35,17 @@ body{
     color: black;
 }
 .navbar ul li:nth-child(1) a:hover{
-    background-color:  rgb(5, 5, 133);
-    color: whitesmoke;
+    background-color:  #489DC1;
+    color: white; 
 }
 .marquee{
     width: 100%;
     background-color: #058158;
     padding-top: 5px;
     color: whitesmoke;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
 }
 .banner img{
     width: 100%;
@@ -131,6 +134,18 @@ body{
 
 /* buy section */
 /* first-one buy */
+.head{
+    width: 100%;
+    margin-top: 10px;
+}
+.shop,.review{
+    width: 300px;
+    background-color:#58ad79;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
 .buy{
     display: flex;
     justify-content: center;
@@ -176,7 +191,36 @@ body{
     width: 200px;
     margin-left: 12px;
 }
-
+/* Review section */
+ 
+.review-card{
+    width: 20%;
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-top: 10px; 
+    text-align: justify;
+    margin-left: 20px;
+    /* border-left:2px soiid #489DC1; */
+}
+.review-head{
+    display: flex;
+}
+.review-card .review-head .faisal{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.review-card .review-head h2{
+    margin-left: 14px;
+    margin-top: 13px;
+    font-size: 19px;
+}
+.review-parent{
+    display: flex;
+    justify-content: center;
+}
 /* comment section */
 .comment{
     width: 100%;
@@ -188,7 +232,7 @@ body{
 }
 form{
     display: block;
-    margin-left: 300px;
+    margin-left: 150px;
     position: relative;
 }
 form label{
@@ -196,20 +240,22 @@ form label{
     font-size: 20px;
 }
 form input{
+    width: 400px;
     border: none;
     outline: none;
     padding: 20px;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 form input:focus{
     font-weight: bold;
+    font-size: 20px;
 }
 .bttn1{
-    width: 150px;
-    margin-left: 300px;
+    width: 70%;
+    margin-left: 150px;
     font-size: 20px;
     font-weight: bolder;
     padding: 5px 10px 5px 10px;
@@ -217,4 +263,13 @@ form input:focus{
 .bttn1:hover{
     background-color: aquamarine;
     cursor: pointer;
+}
+
+/* footer section */
+.footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    
 }
