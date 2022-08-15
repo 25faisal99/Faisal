@@ -4,51 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML project</title>
+    <title>Mobile mart</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-    <!-- Navbar part -->
-    <div class="nav_bar">
-        <!-- left par -->
-        <div class="left">
-                <p>Mobile Mart</p>
-        </div>
-        <!-- Right part -->
-        <div class="right">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Login</a>
-            <a href="#">Register</a>
-        </div>
-    </div>
-    <!-- Offer announcement part -->
-     <div class="offer">
-        <p>Offer will end on 20th August, 2022. So come and grab 
-            your offer as early as possible.
-        </p>
-    </div>
-    <p style="background-color:   #3E3B3A;height: 5px; padding: 1px;">fhaklf</p>
-    <!-- Image section -->
-    <div class="image">
-        <img src="/images/banner.jpeg" alt="vivo phone image" width="100%">
-    </div>
-   <div class="offers">
-    <div class="offer1">
-        <h4>Top offers</h4><br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis dolorem eveniet ipsum officia consequatur placeat aperiam sint reprehenderit voluptate!
-    </div>
-    
-    <div class="offer2">
-        <h4>Top offers</h4><br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis dolorem eveniet ipsum officia consequatur placeat aperiam sint reprehenderit voluptate!
-    </div>
+    <body>
 
-    <div class="offer3">
-        <h4>Top offers</h4><br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis debitis dolorem eveniet ipsum officia consequatur placeat aperiam sint reprehenderit voluptate!
-    </div>
-   </div>
-</body>
-</html>
+        <!-- header section -->
+         <header>
+                <div class="navbar">
+                    <ul>
+                        <li> <a href="#"> Mobile mart</a></li>
+                        <li> <a href="#">Register</a></li>
+                        <li> <a href="#">Login</a></li>
+                        <li> <a href="#">Contact</a></li>
+                        <li> <a href="#">About</a></li>
+                        <li> <a href="#"> Home</a></li>
+                    </ul>
+                </div>
+         </header>
+
+            <!-- marquee section -->
+            <div class="marquee">
+                <marquee behavior="" direction="">Offer will end on 20th August, 2022. So come and grab your offer as early as possible.</marquee>
+            </div>
+
+            <!-- banner section -->
+            <div class="banner">
+                <img src="/images/banner.jpeg" alt="Vivo phone image" title="Vivo phone image">
+            </div>
+
+            <!-- offer section -->
+            <div class="parent-offer">
+                    <div class="first-offer">
+                        <h3>Offers</h3><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloremque dolores quisquam veritatis corporis orem ipsum dolor sit amet consectetur adipisicing elit.  
+                    </div>
+                    <div class="second-offer">
+                        <h3>Offers</h3><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloremque dolores quisquam veritatis corporis orem ipsum dolor sit amet consectetur adipisicing elit.  
+                    </div>
+                    <div class="third-offer">
+                        <h3>Offers</h3><br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloremque dolores quisquam veritatis corporis orem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </div>
+            </div>
+
+            <!-- buy section -->
+            <div class="buy">
+                    <div class="first-one">
+                        <img src="/images/mobile-1.jpeg" alt="Model-1" class="images">
+                        <h4>Model-1</h4><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorem.</p>
+                        <input type="button" onclick="clickable" value="Purchase" class="bttn">
+                    </div>
+                    <div class="second-one">
+                        <img src="/images/mobile-2.jpeg" alt="Model-3" class="images">
+                        <h4>Model-2</h4><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, facilis?</p>
+                        <input type="button" onclick="clickable" value="Purchase" class="bttn">
+                    </div>
+                    <div class="third-one">
+                        <img src="/images/mobile-1.jpeg" class="images" alt="Model-3">
+                        <h4>Model-3</h4><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, excepturi?</p>
+                        <input type="button" onclick="clickable" value="Purchase" class="bttn">
+                    </div>
+                    <div class="fourth-one">
+                        <img src="/images/mobile-2.jpeg" alt="Model-4" class="images">
+                        <h4>Model-4</h4><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, vero.</p>
+                        <input type="button" onclick="clickable" value="Purchase" class="bttn">
+                    </div>
+                    <div class="fifth-one">
+                        <img src="/images/mobile-3.jpeg" alt="Model-5" class="images">
+                        <h4>Model-5</h4><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sit..</p>
+                        <input type="button" onclick="clickable" value="Purchase" class="bttn">
+                    </div>
+            </div>
+
+            <!-- comment section -->
+            <div class="comment">
+                <form action="#">
+                    <label for="name">Name: </label>
+                    <input type="text" placeholder="enter your name">
+                    <label for="email">Email: </label>
+                    <input type="email" name="" id="" placeholder="enter your email"><br>
+                    <label for="number">Phone: </label>
+                     <input type="text" name="" id="" placeholder="enter your phone number">
+                    <label for="comment">Comment: </label>
+                    <input type="text" placeholder="write your comment"><br>
+                    <input type="button" value="Submit" class="bttn1">
+                </form>
+            </div>
+    </body>
+</html> 
